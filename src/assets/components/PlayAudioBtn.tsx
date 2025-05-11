@@ -147,8 +147,8 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
         className="audio-btn"
         src={
           audioPlaying
-            ? "/assets/img/PauseBtn.png"
-            : "/assets/img/PlayBtn.png"
+            ? "/img/PauseBtn.png"
+            : "/img/PlayBtn.png"
         }
         onClick={handleAudioBtnClicked}
         alt={audioPlaying ? "Pause" : "Play"}

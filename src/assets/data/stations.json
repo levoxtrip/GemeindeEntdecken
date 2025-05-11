@@ -17,7 +17,7 @@
         "description": "Fantastic that you're joining us! Buckle up for an entertaining journey through time and the streets of Hasbergen! What awaits you? A colorful mix of quirky anecdotes, fascinating historical secrets, and surprising facts about famous and hidden corners of our charming town. From forgotten water towers to legendary sausages – this tour will show you that behind every unassuming façade lurks an exciting story. Bring your curiosity and prepare to be amazed!"
       }
     ],
-    "image": "/assets/img/st-welcome.png"
+    "image": "/img/st-welcome.png"
   },
   {
     "stationId": 1,
@@ -37,7 +37,7 @@
         "description": "Our first halt takes us to the water tower – a mysterious relic from Hasbergen's past that many locals overlook every day. But behind its unassuming exterior lies a story you definitely haven't heard before!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
 
     "GPS": [52.2413701507527, 7.956537427453726]
   },
@@ -59,7 +59,7 @@
         "description": "Imagine: It's 1885, steam locomotives are huffing through Hasbergen, and this little tower before you is their lifesaver! With its modest capacity of just 10 cubic meters, it was essentially the drinking cup among German water towers – small but indispensable! Built from foundry stone and sandstone, it withstood wind and weather until steam locomotives became history. It was almost forgotten until 2014, when the heritage office saved it from demolition. 'The last of its kind!' experts exclaimed enthusiastically. Under Friedhold Ludwig's passionate leadership, our miniature water tower was lovingly restored and now shines as a tiny cultural center with changing exhibitions. And the best part? While you enjoy art inside, industrious bees buzz outside among insect-friendly plants – from water dispenser to nature paradise! A sweet transformation story, wouldn't you say?"
       }
     ],
-    "image": "/assets/img/Turm.png"
+    "image": "/img/Turm.png"
   },
   {
     "stationId": 3,
@@ -79,7 +79,7 @@
         "description": "Follow me through the streets of Hasbergen! Our next destination has nothing to do with water – but everything to do with taste and tradition. Sharpen your senses and get ready for a culinary success story that found its way from a small corner in Hasbergen to far beyond German borders!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
 
     "GPS": [52.235194296200795, 7.957957017715534]
   },
@@ -101,7 +101,7 @@
         "description": "Here we stand before this unassuming corner building that, in 1961, heralded nothing less than a culinary revolution! In this modest shop, Dieter Hein took the brave leap from family recipe to butchery legend. What began as a small butcher shop soon attracted sausage lovers from near and far. 'Have you tried the sausage from Hein yet?' people whispered in the streets. The queues grew longer, the spaces tighter – a sweet problem of success! By 1975, it was clear: Hasbergen-Gaste needed a proper sausage factory! From this cornerstone, HEIN conquered the palates of Germany and later the world. Who would have thought that a small butchery in Hasbergen would one day create an international sensation? So, the next time you enjoy a HEIN sausage, remember: it all started right here where we're standing now – a bite-sized piece of Hasbergen history!"
       }
     ],
-    "image": "/assets/img/Fleischer.png"
+    "image": "/img/Fleischer.png"
   },
   {
     "stationId": 5,
@@ -121,7 +121,7 @@
         "description": "Our next destination takes us on a completely different journey – from the plate back into the earth! Follow me to the majestic Hüggel, where we'll dive into the fascinating world of mining. A story literally written in silver and iron awaits us there!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
     "GPS": [52.232285722583995, 7.959637211193343]
   },
   {
@@ -142,7 +142,7 @@
         "description": "Picture this: The year 1180. While elsewhere people were still debating chivalry, here they were already eagerly digging for silver! The Hüggel – not just a pretty mountain, but a true treasure chest! In 1235, Bishop Conrad found this so impressive that he promptly granted mining rights – essentially a medieval knighthood for a mountain! After an extensive breather (everyone deserves a break), the glittering precious metal was mined again in 1722. The 'Hüggel silver' was so coveted that it was processed into magnificent Osnabrück coins – pocket money with hometown pride, so to speak! But our Hüggel is no one-metal mountain: in 1852, it was discovered that it was also filled with iron ore – a veritable geological buffet! The Georgs-Marien Mining and Ironworks Association took over the business in 1856, and in 1860, the 'Osnabrück Zinc Company' joined in when the Aaron and Kronprinz fields were merged. The Hüggel – a mountain full of surprises and a dazzling chapter in Hasbergen's history!"
       }
     ],
-    "image": "src/assets/img/Mine.png"
+    "image": "/img/Mine.png"
   },
   {
     "stationId": 7,
@@ -162,7 +162,7 @@
         "description": "We leave the treasures of the earth and move to a place that has shaped Hasbergen's sporting history. Get ready for a story of running shoes, sweat, and a community that keeps moving! The old Ohrbeck school awaits us – and with it an impressive story of running, celebrating, and coming together!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
     "GPS": [52.233003231152026, 7.978046049206367]
   },
   {
@@ -184,7 +184,7 @@
         "description": "Welcome to the historic Ohrbeck school – the birthplace of a sporting revolution! In 1974, two visionaries joined forces here: Jürgen Frieler and Georg Schirmbeck founded a running group that would change Hasbergen forever. 1975 – the starting gun fired for the first international popular run 'Around the Hüggel'. Imagine this: 800 runners, puffing and sweating up and down the hills – a true folk festival in running shoes! The notorious Hüggel inclines ensured burning calves but also growing fame. In 1978, the event reached its peak: 1600 participants! A true sea of runners! Particularly spectacular were the dramatic duels between British and German soldiers in team walking – international competition in Hasbergen! The coveted medals featuring Hüggel legends, designed by the talented Heinrich Meyer, are valuable collectors' items today. After several relocations and a successful 25-year run, this era ended in 1999. But like a true marathon runner, Hasbergen didn't give up! Since 1980, the 'NIGHT OF HASBERGEN' illuminates the streets – an evening run that has become legendary far beyond Lower Saxony's borders. From the small Ohrbeck school to the big wide running world – a true success story with endurance!"
       }
     ],
-    "image": "/assets/img/Haus.png"
+    "image": "/img/Haus.png"
   },
   {
     "stationId": 9,
@@ -204,7 +204,7 @@
         "description": "From running tracks to railway tracks – our journey through Hasbergen's history now takes us to a place that was once the gateway to the wider world. Get ready for a time travel to Wulffskotten station, where steam locomotives puffed and German history left its mark!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
     "GPS": [52.23814634601123, 7.966822950868004]
   },
   {
@@ -225,7 +225,7 @@
         "description": "The Wulffskotten train station in Hasbergen has a fascinating history, heavily influenced by the development of railways and World War II. Originally built in the early 20th century as a small stop along the route between Osnabrück and Rheine, the station played a strategic role during the war. It was equipped with a nearby heavy anti-aircraft gun station to protect the railway facilities. The station building itself had protective features, such as blast-resistant windows and a single-person bunker."
       }
     ],
-    "image": "src/assets/img/TrainStation.png"
+    "image": "/img/TrainStation.png"
   },
   {
     "stationId": 11,
@@ -245,7 +245,7 @@
         "description": "Our time travel is approaching its climax! From water towers to sausages and running events to historic train stations – now it's time to return to the origin. Follow me to the Bürgersaal, where we'll discover how 'Hers' became our beloved 'Hasbergen'!"
       }
     ],
-    "image": "/assets/img/st-welcome.png",
+    "image": "/img/st-welcome.png",
     "GPS": [52.24308006002681, 7.958490107054966]
   },
   {
@@ -267,7 +267,7 @@
         "description": "Let's dive into the year 836 – Charlemagne had been dead for just 22 years when Hasbergen was first documented! And guess where the name comes from? From horses! The Old Low German 'Hers' or 'Hors' meant 'steed' – Hasbergen was originally the 'horse mountain village'! The place 'Herslage' (today Haslage) in the southwest was the starting point. Imagine the medieval drama: Hasbergen lay exactly between the territories of the Counts of Tecklenburg and the Prince-Bishopric of Osnabrück – a diplomatic nightmare! In 1150, Heinrich von Tecklenburg decided to hand over the manor and chapel of Wersen, including its inhabitants, to the Bishop of Osnabrück – probably because the stress was too much! For the owners of the Haslage estate and castle, this sandwich position between the powerful meant plenty of trouble. Until the 15th century, Hasbergen was little more than a few scattered farms and the castle – it was far from being a 'community.' From these humble beginnings emerged the Hasbergen where we stand today – from a handful of farmers to a vibrant community with a rich history!"
       }
     ],
-    "image": "/assets/img/st-hasbergen.png"
+    "image": "/img/st-hasbergen.png"
   },
   {
     "stationId": 13,
@@ -288,6 +288,6 @@
         "description": "Congratulations, you've made it! From medieval horse mountains to puffing steam locomotives, famous sausages, and athletic achievements – you've discovered the hidden history of Hasbergen! We hope you'll now see your hometown through different eyes. Behind every unassuming corner, every old building lies a story worth telling. The next sausage at HEIN will surely taste better now that you know how it all began! And perhaps on your next walk around the Hüggel, you'll discover a piece of silver? Thank you for joining us on this journey of discovery – the history of Hasbergen lives on in you!"
       }
     ],
-    "image": "/assets/img/st-hasbergen.png"
+    "image": "/img/st-hasbergen.png"
   }
 ]
