@@ -5,6 +5,15 @@ interface Props {
   currentDescription: string;
 }
 
+// Define a type for the voice settings
+interface VoiceSettings {
+  lang: string;
+  preferredVoice: string[];
+}
+
+// Define a type for the voice map
+type VoiceMap = Record<number, VoiceSettings>;
+
 const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
   const [audioPlaying, setAudioPlaying] = useState<boolean>(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -39,10 +48,11 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
       window.speechSynthesis.cancel();
       setAudioPlaying(false);
     }
-  }, [currLangIndex]);
+  }, [currLangIndex, audioPlaying]);
 
   const getVoice = () => {
-    const voiceMap = {
+    // Properly typed voice map with a Record type
+    const voiceMap: VoiceMap = {
       0: {
         lang: "de-DE",
         preferredVoice: [
@@ -63,6 +73,8 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
         ],
       },
     };
+    
+    // Now TypeScript knows this is a valid access
     const settings = voiceMap[currLangIndex] || voiceMap[0];
     console.log("Looking for voice for language:", settings.lang);
 
@@ -135,8 +147,8 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
         className="audio-btn"
         src={
           audioPlaying
-            ? "src/assets/img/PauseBtn.png"
-            : "src/assets/img/PlayBtn.png"
+            ? "/assets/img/PauseBtn.png"
+            : "/assets/img/PlayBtn.png"
         }
         onClick={handleAudioBtnClicked}
         alt={audioPlaying ? "Pause" : "Play"}
