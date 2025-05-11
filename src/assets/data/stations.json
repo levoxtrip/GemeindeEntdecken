@@ -1,0 +1,293 @@
+[
+  {
+    "stationId": 0,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Herzlich Willkommen zur Nils Tour durch Hasbergen!",
+        "description": "Fantastisch, dass Sie dabei sind! Schnallen Sie sich an für eine unterhaltsame Reise durch die Zeit und Straßen von Hasbergen! Was Sie erwartet? Eine bunte Mischung aus skurrilen Anekdoten, faszinierenden historischen Geheimnissen und verblüffenden Fakten über bekannte und versteckte Ecken unserer charmanten Stadt. Von vergessenen Wassertürmen bis hin zu legendären Würsten – diese Tour wird Ihnen zeigen, dass hinter jeder unscheinbaren Fassade eine spannende Geschichte lauert. Nehmen Sie Ihre Neugier mit und lassen Sie sich überraschen!"
+      },
+      {
+        "language": "EN",
+        "title": "Welcome to the Nils Tour of Hasbergen!",
+        "description": "Fantastic that you're joining us! Buckle up for an entertaining journey through time and the streets of Hasbergen! What awaits you? A colorful mix of quirky anecdotes, fascinating historical secrets, and surprising facts about famous and hidden corners of our charming town. From forgotten water towers to legendary sausages – this tour will show you that behind every unassuming façade lurks an exciting story. Bring your curiosity and prepare to be amazed!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png"
+  },
+  {
+    "stationId": 1,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d530.7930690339073!2d7.955836738432108!3d52.24130560621438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e8f27c446133%3A0x4f2f5e6d5fe3a950!2sWasserturm!5e0!3m2!1sde!2ses!4v1733296458795!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Auf zum ersten Stopp unseres Abenteuers!",
+        "description": "Unser erster Halt führt uns zum Wasserturm – ein mysteriöses Relikt aus Hasbergens Vergangenheit, das viele Einheimische tagtäglich übersehen. Doch hinter seinem unscheinbaren Äußeren verbirgt sich eine Geschichte, die Sie garantiert noch nicht kennen!"
+      },
+      {
+        "language": "EN",
+        "title": "Off to the first stop of our adventure!",
+        "description": "Our first halt takes us to the water tower – a mysterious relic from Hasbergen's past that many locals overlook every day. But behind its unassuming exterior lies a story you definitely haven't heard before!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+
+    "GPS": [52.2413701507527, 7.956537427453726]
+  },
+  {
+    "stationId": 2,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vom rostigen Riesen zum kleinen Kultur-Juwel",
+        "description": "Stellen Sie sich vor: Es ist 1885, Dampflokomotiven schnaufen durch Hasbergen und dieser kleine Turm vor Ihnen ist ihr Lebensretter! Mit seinem bescheidenen Fassungsvermögen von nur 10 Kubikmetern war er quasi der Trinkbecher unter den deutschen Wassertürmen – klein, aber unverzichtbar! Aus Hüttenstein und Sandstein erbaut, trotzte er Wind und Wetter, bis die Dampfloks Geschichte wurden. Fast wäre er vergessen worden, doch 2014 rettete ihn das Denkmalschutzamt vor dem Abriss. 'Der letzte seiner Art!' riefen die Experten begeistert. Unter Friedhold Ludwigs leidenschaftlicher Führung wurde unser Miniatur-Wasserturm liebevoll restauriert und erstrahlt heute als winziges Kulturzentrum mit wechselnden Ausstellungen. Und das Beste? Während Sie Kunst genießen, summen draußen fleißige Bienen zwischen insektenfreundlichen Pflanzen – vom Wasserspender zum Naturparadies! Eine süße Verwandlungsgeschichte, oder?"
+      },
+      {
+        "language": "EN",
+        "title": "From Rusty Giant to Cultural Gem",
+        "description": "Imagine: It's 1885, steam locomotives are huffing through Hasbergen, and this little tower before you is their lifesaver! With its modest capacity of just 10 cubic meters, it was essentially the drinking cup among German water towers – small but indispensable! Built from foundry stone and sandstone, it withstood wind and weather until steam locomotives became history. It was almost forgotten until 2014, when the heritage office saved it from demolition. 'The last of its kind!' experts exclaimed enthusiastically. Under Friedhold Ludwig's passionate leadership, our miniature water tower was lovingly restored and now shines as a tiny cultural center with changing exhibitions. And the best part? While you enjoy art inside, industrious bees buzz outside among insect-friendly plants – from water dispenser to nature paradise! A sweet transformation story, wouldn't you say?"
+      }
+    ],
+    "image": "src/assets/img/Turm.png"
+  },
+  {
+    "stationId": 3,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.8647194725559!2d7.9574029627064435!3d52.23504829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e8ee3088422b%3A0xb2e384b86f0450b9!2sDie%20Frische-Fleischerei!5e0!3m2!1sde!2ses!4v1733297145387!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Auf zum nächsten Schauplatz der Hasberger Geschichte!",
+        "description": "Folgen Sie mir durch die Straßen Hasbergens! Unser nächstes Ziel hat nichts mit Wasser zu tun – aber umso mehr mit Geschmack und Tradition. Schärfen Sie Ihre Sinne und machen Sie sich bereit für eine kulinarische Erfolgsgeschichte, die ihren Weg von einer kleinen Ecke in Hasbergen bis weit über die deutschen Grenzen hinaus fand!"
+      },
+      {
+        "language": "EN",
+        "title": "Onward to the next scene of Hasbergen's history!",
+        "description": "Follow me through the streets of Hasbergen! Our next destination has nothing to do with water – but everything to do with taste and tradition. Sharpen your senses and get ready for a culinary success story that found its way from a small corner in Hasbergen to far beyond German borders!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+
+    "GPS": [52.235194296200795, 7.957957017715534]
+  },
+  {
+    "stationId": 4,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Die Anfänge der Wurst in Hasbergen",
+        "description": "Hier stehen wir vor dem unscheinbaren Eckgebäude, das 1961 nichts weniger als eine kulinarische Revolution einläutete! In diesem bescheidenen Laden wagte Dieter Hein den mutigen Sprung vom Familienrezept zur Fleischerei-Legende. Was als kleiner Metzgerladen begann, lockte bald Wurstliebhaber von nah und fern an. 'Hast du schon die Wurst vom Hein probiert?' flüsterte man sich in den Straßen zu. Die Warteschlangen wurden länger, die Räume enger – ein süßes Problem des Erfolgs! 1975 war klar: Hasbergen-Gaste brauchte eine richtige Wurstfabrik! Von diesem Eckstein aus eroberte HEIN die Gaumen Deutschlands und später der Welt. Wer hätte gedacht, dass eine kleine Fleischerei in Hasbergen einmal international Furore machen würde? Also, wenn Sie das nächste Mal eine HEIN-Wurst genießen, denken Sie daran: Alles begann genau hier, wo wir jetzt stehen – ein Stückchen Hasberger Geschichte zum Anbeißen!"
+      },
+      {
+        "language": "EN",
+        "title": "The Sausage that Made Hasbergen Famous",
+        "description": "Here we stand before this unassuming corner building that, in 1961, heralded nothing less than a culinary revolution! In this modest shop, Dieter Hein took the brave leap from family recipe to butchery legend. What began as a small butcher shop soon attracted sausage lovers from near and far. 'Have you tried the sausage from Hein yet?' people whispered in the streets. The queues grew longer, the spaces tighter – a sweet problem of success! By 1975, it was clear: Hasbergen-Gaste needed a proper sausage factory! From this cornerstone, HEIN conquered the palates of Germany and later the world. Who would have thought that a small butchery in Hasbergen would one day create an international sensation? So, the next time you enjoy a HEIN sausage, remember: it all started right here where we're standing now – a bite-sized piece of Hasbergen history!"
+      }
+    ],
+    "image": "src/assets/img/Fleischer.png"
+  },
+  {
+    "stationId": 5,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "LINK zur Aussicht"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Auf zu neuen Höhen!",
+        "description": "Unser nächstes Ziel nimmt uns mit auf eine ganz andere Reise – vom Teller zurück in die Erde! Folgen Sie mir zum majestätischen Hüggel, wo wir in die faszinierende Welt des Bergbaus eintauchen werden. Dort erwartet uns eine Geschichte, die buchstäblich in Silber und Eisen geschrieben wurde!"
+      },
+      {
+        "language": "EN",
+        "title": "Onward to new heights!",
+        "description": "Our next destination takes us on a completely different journey – from the plate back into the earth! Follow me to the majestic Hüggel, where we'll dive into the fascinating world of mining. A story literally written in silver and iron awaits us there!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.232285722583995, 7.959637211193343]
+  },
+  {
+    "stationId": 6,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Silber, Eisen, Zink: Die glänzende Unterwelt des Hüggels",
+        "description": "Stellen Sie sich vor: Das Jahr 1180. Während anderswo noch über Ritterlichkeit debattiert wurde, buddelte man hier bereits eifrig nach Silber! Der Hüggel – nicht nur ein hübscher Berg, sondern eine wahre Schatzkammer! 1235 fand Bischof Konrad das so beeindruckend, dass er kurzerhand das Bergrecht verlieh – quasi der mittelalterliche Ritterschlag für einen Berg! Nach einer ausgiebigen Verschnaufpause (man gönnt sich ja sonst nichts) wurde 1722 wieder nach dem glänzenden Edelmetall gegraben. Das 'Hüggelsilber' war so begehrt, dass es zu prachtvollen Osnabrücker Münzen verarbeitet wurde – Taschengeld mit Heimatstolz sozusagen! Doch unser Hüggel ist kein Ein-Metall-Berg: 1852 entdeckte man, dass er auch mit Eisenerz gefüllt war – ein regelrechtes geologisches Buffet! Der Georgs-Marien-Bergwerks- und Hüttenverein übernahm 1856 das Geschäft, und 1860 mischte auch noch die 'Osnabrücker Zinkgesellschaft' mit, als die Felder Aaron und Kronprinz zusammengelegt wurden. Der Hüggel – ein Berg voller Überraschungen und ein schillerndes Kapitel in Hasbergens Geschichte!"
+      },
+      {
+        "language": "EN",
+        "title": "Silver, Iron, Zinc: The Glittering Underworld of Hüggel",
+        "description": "Picture this: The year 1180. While elsewhere people were still debating chivalry, here they were already eagerly digging for silver! The Hüggel – not just a pretty mountain, but a true treasure chest! In 1235, Bishop Conrad found this so impressive that he promptly granted mining rights – essentially a medieval knighthood for a mountain! After an extensive breather (everyone deserves a break), the glittering precious metal was mined again in 1722. The 'Hüggel silver' was so coveted that it was processed into magnificent Osnabrück coins – pocket money with hometown pride, so to speak! But our Hüggel is no one-metal mountain: in 1852, it was discovered that it was also filled with iron ore – a veritable geological buffet! The Georgs-Marien Mining and Ironworks Association took over the business in 1856, and in 1860, the 'Osnabrück Zinc Company' joined in when the Aaron and Kronprinz fields were merged. The Hüggel – a mountain full of surprises and a dazzling chapter in Hasbergen's history!"
+      }
+    ],
+    "image": "src/assets/img/Mine.png"
+  },
+  {
+    "stationId": 7,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "LINK WEG ALTE OHRBECKER SCHULE"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vom Erz zum Sport: Unser nächstes Ziel ruft!",
+        "description": "Wir verlassen die Schätze der Erde und bewegen uns zu einem Ort, der Hasbergens sportliche Geschichte geprägt hat. Machen Sie sich bereit für eine Geschichte von Laufschuhen, Schweiß und einer Gemeinschaft, die in Bewegung bleibt! Die alte Ohrbecker Schule wartet auf uns – und mit ihr eine beeindruckende Geschichte vom Laufen, Feiern und Zusammenkommen!"
+      },
+      {
+        "language": "EN",
+        "title": "From Ore to Sport: Our next destination calls!",
+        "description": "We leave the treasures of the earth and move to a place that has shaped Hasbergen's sporting history. Get ready for a story of running shoes, sweat, and a community that keeps moving! The old Ohrbeck school awaits us – and with it an impressive story of running, celebrating, and coming together!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.233003231152026, 7.978046049206367]
+  },
+  {
+    "stationId": 8,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Wo alles seinen Lauf nahm",
+        "description": "Willkommen an der historischen Ohrbecker Schule – dem Geburtsort einer sportlichen Revolution! 1974 taten sich hier zwei Visionäre zusammen: Jürgen Frieler und Georg Schirmbeck gründeten eine Laufgruppe, die Hasbergen für immer verändern sollte. 1975 – der Startschuss fiel für den ersten internationalen Volkslauf 'Rund um den Hüggel'. Stellen Sie sich das vor: 800 Läufer, schnaufend und schwitzend die Hügel hoch und runter – ein echtes Volksfest mit Laufschuhen! Die berüchtigten Hüggel-Steigungen sorgten für brennende Waden, aber auch für wachsenden Ruhm. 1978 erreichte das Event seinen Höhepunkt: 1600 Teilnehmer! Ein wahres Läufermeer! Besonders spektakulär waren die dramatischen Duelle zwischen britischen und deutschen Soldaten im Mannschaftsgehen – internationaler Wettkampf in Hasbergen! Die begehrten Medaillen mit Hüggel-Sagen, entworfen vom talentierten Heinrich Meyer, sind heute wertvolle Sammlerstücke. Nach mehreren Umzügen und 25 erfolgreichen Jahren endete diese Ära 1999. Aber wie ein echter Marathonläufer gab Hasbergen nicht auf! Seit 1980 erleuchtet die 'NACHT VON HASBERGEN' die Straßen – ein Abendlauf, der mittlerweile weit über Niedersachsens Grenzen hinaus legendär ist. Von der kleinen Ohrbecker Schule in die große weite Laufwelt – eine wahre Erfolgsgeschichte mit Ausdauer!"
+      },
+      {
+        "language": "EN",
+        "title": "Sweat and Glory: The Running Legend of Ohrbeck",
+        "description": "Welcome to the historic Ohrbeck school – the birthplace of a sporting revolution! In 1974, two visionaries joined forces here: Jürgen Frieler and Georg Schirmbeck founded a running group that would change Hasbergen forever. 1975 – the starting gun fired for the first international popular run 'Around the Hüggel'. Imagine this: 800 runners, puffing and sweating up and down the hills – a true folk festival in running shoes! The notorious Hüggel inclines ensured burning calves but also growing fame. In 1978, the event reached its peak: 1600 participants! A true sea of runners! Particularly spectacular were the dramatic duels between British and German soldiers in team walking – international competition in Hasbergen! The coveted medals featuring Hüggel legends, designed by the talented Heinrich Meyer, are valuable collectors' items today. After several relocations and a successful 25-year run, this era ended in 1999. But like a true marathon runner, Hasbergen didn't give up! Since 1980, the 'NIGHT OF HASBERGEN' illuminates the streets – an evening run that has become legendary far beyond Lower Saxony's borders. From the small Ohrbeck school to the big wide running world – a true success story with endurance!"
+      }
+    ],
+    "image": "src/assets/img/Haus.png"
+  },
+  {
+    "stationId": 9,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d152.70575371587876!2d7.9668342186206464!3d52.238078605565384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2ses!4v1733303730836!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Auf Schienen in die Vergangenheit!",
+        "description": "Von Laufstrecken zu Eisenbahnschienen – unsere Reise durch Hasbergens Geschichte führt uns nun zu einem Ort, der einst das Tor zur weiten Welt war. Machen Sie sich bereit für eine Zeitreise zum Bahnhof Wulffskotten, wo Dampflokomotiven schnauften und die Geschichte Deutschlands ihre Spuren hinterließ!"
+      },
+      {
+        "language": "EN",
+        "title": "On tracks into the past!",
+        "description": "From running tracks to railway tracks – our journey through Hasbergen's history now takes us to a place that was once the gateway to the wider world. Get ready for a time travel to Wulffskotten station, where steam locomotives puffed and German history left its mark!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.23814634601123, 7.966822950868004]
+  },
+  {
+    "stationId": 10,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Der Bahnhof Wulffskotten: Geschichte zwischen Schienen und Stacheldraht",
+        "description": "Der Bahnhof Wulffskotten in Hasbergen hat eine bewegte Geschichte, die stark durch die Eisenbahnentwicklung und den Zweiten Weltkrieg geprägt wurde. Ursprünglich wurde der Bahnhof Anfang des 20. Jahrhunderts als kleiner Zwischenstopp auf der Strecke zwischen Osnabrück und Rheine eingerichtet. Während des Zweiten Weltkriegs spielte er eine strategische Rolle, unter anderem mit einer nahegelegenen schweren Flakstellung, die zum Schutz der Bahnanlagen diente. An dem Gebäude selbst gab es Schutzvorrichtungen, wie z. B. Splitterschutzfenster und einen Einmannbunker​"
+      },
+      {
+        "language": "EN",
+        "title": "The Wulffskotten Station: A Story Between Rails and Barbed Wire",
+        "description": "The Wulffskotten train station in Hasbergen has a fascinating history, heavily influenced by the development of railways and World War II. Originally built in the early 20th century as a small stop along the route between Osnabrück and Rheine, the station played a strategic role during the war. It was equipped with a nearby heavy anti-aircraft gun station to protect the railway facilities. The station building itself had protective features, such as blast-resistant windows and a single-person bunker."
+      }
+    ],
+    "image": "src/assets/img/TrainStation.png"
+  },
+  {
+    "stationId": 11,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d717.1428547531173!2d7.958189572851827!3d52.2430179562514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e9001ff47547%3A0x4cdff757b60596fd!2sB%C3%BCrgersaal!5e0!3m2!1sde!2ses!4v1733303865306!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Zurück zu den Wurzeln von Hasbergen!",
+        "description": "Unsere Zeitreise nähert sich ihrem Höhepunkt! Von Wassertürmen über Wurstwaren und Laufveranstaltungen bis hin zu historischen Bahnhöfen – jetzt ist es Zeit, zum Ursprung zurückzukehren. Folgen Sie mir zum Bürgersaal, wo wir entdecken werden, wie aus 'Hers' unser geliebtes 'Hasbergen' wurde!"
+      },
+      {
+        "language": "EN",
+        "title": "Back to the roots of Hasbergen!",
+        "description": "Our time travel is approaching its climax! From water towers to sausages and running events to historic train stations – now it's time to return to the origin. Follow me to the Bürgersaal, where we'll discover how 'Hers' became our beloved 'Hasbergen'!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.24308006002681, 7.958490107054966]
+  },
+  {
+    "stationId": 12,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Von Hers zu Has: Die Geburtsstunde eines Dorfes",
+        "description": "Tauchen wir ein ins Jahr 836 – Karl der Große war gerade mal 22 Jahre tot, als Hasbergen erstmals urkundlich erwähnt wurde! Und raten Sie mal, woher der Name stammt? Von Pferden! Das altniederdeutsche 'Hers' oder 'Hors' bedeutete 'Ross' – Hasbergen war also ursprünglich das 'Pferdeberg-Dorf'! Der Ort 'Herslage' (heute Haslage) im Südwesten war der Ausgangspunkt. Stellen Sie sich das mittelalterliche Drama vor: Hasbergen lag genau zwischen den Machtgebieten der Grafen von Tecklenburg und dem Hochstift Osnabrück – ein diplomatischer Albtraum! 1150 beschloss Heinrich von Tecklenburg, dem Bischof von Osnabrück den Hof und die Kapelle Wersen samt Bewohnern zu überlassen – vermutlich war ihm der Stress zu viel! Für die Besitzer von Gut und Burg Haslage bedeutete diese Sandwichposition zwischen den Mächtigen jede Menge Ärger. Bis zum 15. Jahrhundert war Hasbergen kaum mehr als ein paar verstreute Bauernhöfe und die Burg – von einer 'Gemeinde' konnte man noch lange nicht sprechen. Aus diesem bescheidenen Anfang entstand das Hasbergen, in dem wir heute stehen – von einer Handvoll Bauern zu einer lebendigen Gemeinde mit reicher Geschichte!"
+      },
+      {
+        "language": "EN",
+        "title": "From Hors to Has: The Birth of a Village",
+        "description": "Let's dive into the year 836 – Charlemagne had been dead for just 22 years when Hasbergen was first documented! And guess where the name comes from? From horses! The Old Low German 'Hers' or 'Hors' meant 'steed' – Hasbergen was originally the 'horse mountain village'! The place 'Herslage' (today Haslage) in the southwest was the starting point. Imagine the medieval drama: Hasbergen lay exactly between the territories of the Counts of Tecklenburg and the Prince-Bishopric of Osnabrück – a diplomatic nightmare! In 1150, Heinrich von Tecklenburg decided to hand over the manor and chapel of Wersen, including its inhabitants, to the Bishop of Osnabrück – probably because the stress was too much! For the owners of the Haslage estate and castle, this sandwich position between the powerful meant plenty of trouble. Until the 15th century, Hasbergen was little more than a few scattered farms and the castle – it was far from being a 'community.' From these humble beginnings emerged the Hasbergen where we stand today – from a handful of farmers to a vibrant community with a rich history!"
+      }
+    ],
+    "image": "src/assets/img/st-hasbergen.png"
+  },
+  {
+    "stationId": 13,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Das Ende unserer Zeitreise – Aber nicht der Geschichte!",
+        "description": "Herzlichen Glückwunsch, Sie haben es geschafft! Von mittelalterlichen Pferdebergen über schnaufende Dampflokomotiven und berühmte Würste bis hin zu sportlichen Höchstleistungen – Sie haben die verborgene Geschichte Hasbergens entdeckt! Wir hoffen, dass Sie Ihre Heimat jetzt mit anderen Augen sehen werden. Hinter jeder unscheinbaren Ecke, jedem alten Gebäude steckt eine Geschichte, die es wert ist, erzählt zu werden. Die nächste Wurst bei HEIN wird Ihnen sicher besser schmecken, wenn Sie wissen, wie alles begann! Und vielleicht entdecken Sie bei Ihrem nächsten Spaziergang am Hüggel ein Stückchen Silber? Danke, dass Sie mit uns auf diese Entdeckungsreise gegangen sind – die Geschichte Hasbergens lebt in Ihnen weiter!"
+      },
+      {
+        "language": "EN",
+        "title": "The End of Our Time Travel – But Not of the Story!",
+        "description": "Congratulations, you've made it! From medieval horse mountains to puffing steam locomotives, famous sausages, and athletic achievements – you've discovered the hidden history of Hasbergen! We hope you'll now see your hometown through different eyes. Behind every unassuming corner, every old building lies a story worth telling. The next sausage at HEIN will surely taste better now that you know how it all began! And perhaps on your next walk around the Hüggel, you'll discover a piece of silver? Thank you for joining us on this journey of discovery – the history of Hasbergen lives on in you!"
+      }
+    ],
+    "image": "src/assets/img/st-hasbergen.png"
+  }
+]

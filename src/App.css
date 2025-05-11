@@ -1,0 +1,159 @@
+
+
+
+.google-maps-nav-btn{
+  background-color: #92F7AA;
+  text-decoration: none;
+  color: #252940;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Fjalla One", sans-serif;
+  display: inline-block; /* Make the link behave like a block-level element */
+  padding: 20px 40px; /* Space inside the button */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Space above the button */
+  margin-bottom: 20px; /* Space below the button */
+  box-sizing: border-box; /* Ensure padding is included in element size */
+  width:80%
+}
+
+
+.next-station-btn{
+  background-color: #92F7AA;
+  text-decoration: none;
+  color: #252940;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Fjalla One", sans-serif;
+  display: inline-block; /* Make the link behave like a block-level element */
+  padding: 20px 40px; /* Space inside the button */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Space above the button */
+  margin-bottom: 20px; /* Space below the button */
+  box-sizing: border-box; /* Ensure padding is included in element size */
+  width:80%
+}
+
+.header-comp{
+  position: relative;
+}
+
+.header-comp .bg-top-img{
+  width:100%;
+}
+
+.header-comp .lang-btn {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 30px; /* Adjust as needed */
+  z-index: 10; /* Ensure it's above other elements */
+}
+
+.header-comp .audio-btn {
+  position: absolute;
+  bottom: -20px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 10; /* Ensure it's above other elements */
+  width:125px;
+  height:125px;
+}
+
+/* .lang-btn{
+  position:absolute;
+  top:50px;
+  right:50px;
+
+}
+
+.audio-btn{
+  position: absolute;
+  top: 37vh; 
+
+  width:125px;
+  height:125px;
+} */
+
+
+.title{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+.station-text{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/* Global scrollbar setting - making all scrollbars invisible */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Override for .text-field to specifically show scrollbars */
+.text-field::-webkit-scrollbar {
+  width: 5px; /* This should make the scrollbar visible in .text-field */
+}
+
+/* Track */
+.text-field::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Thumb */
+.text-field::-webkit-scrollbar-thumb {
+  background: #92F7AA;
+  border-radius: 5px;
+}
+
+.text-field {
+  overflow: auto;
+  max-height: 55vh;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 
+@media (min-width: 700px) {
+  .lang-btn{
+    position:absolute;
+    top:90px;
+    left: calc(50% + 140px); 
+    transform: translate(calc(50% + 50px), -50%);
+  
+  }
+  
+  .audio-btn{
+    position: absolute;
+    top:400px;
+    left: calc(50% + 120px); 
+    transform: translate(calc(50% + 50px), -50%);
+
+  }
+} */

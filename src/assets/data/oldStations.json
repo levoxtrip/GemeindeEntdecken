@@ -1,0 +1,293 @@
+[
+  {
+    "stationId": 0,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Herzlich Willkommen zur Nils Tour!",
+        "description": "Großartig, dass Sie dabei sind! Ab jetzt erwartet Sie eine spannende Mischung aus witzigen Anekdoten, historischen Highlights und interessanten Fakten rund um die bekanntesten und verstecktesten Ecken der Stadt. Lassen Sie sich überraschen, was Ihre Umgebung alles zu bieten hat – von kuriosen Geschichten bis hin zu beeindruckenden Wahrzeichen. Viel Spaß beim Erkunden und Staunen!"
+      },
+      {
+        "language": "EN",
+        "title": "Welcome to the Nils Tour!",
+        "description": "Great to have you with us! You're in for an exciting mix of funny anecdotes, historical highlights, and interesting facts about the city's most famous and hidden corners. Get ready to discover everything your surroundings have to offer – from quirky stories to impressive landmarks. Enjoy exploring and marveling!"
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png"
+  },
+  {
+    "stationId": 1,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d530.7930690339073!2d7.955836738432108!3d52.24130560621438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e8f27c446133%3A0x4f2f5e6d5fe3a950!2sWasserturm!5e0!3m2!1sde!2ses!4v1733296458795!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Auf zu unseren ersten Station",
+        "description": "Uns erwartet an der ersten Station der Wassertum, ein oft vergessenes Relikt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "Let's head to our first station!",
+        "description": "Our first stop is the water tower, a frequently forgotten relic of Hasbergen's history."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+
+    "GPS": [52.2413701507527, 7.956537427453726]
+  },
+  {
+    "stationId": 2,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vom zerfallen Wasserturm zum kleinen Ausstellungsturm.",
+        "description": "Der um ca. 1885 erbaute Wasserturm diente zur Versorgung der Dampflokomotiven der Georgsmarien-Hüttenbahn mit Speisewasser. Gebaut aus Hüttenstein und Sandstein, mit einem Fassunsvermögen von 10 cbm, war er einer der kleinsten Speisewassertürme Deutschlands. Die gute Bausubstanz und der letzte Wasserturm seiner Art veranlasste das Amt für Denkmalschutz den Wasserturm im Jahre 2014 als Industriedenkmal einzustufen. Der KuV hat unter der Leitung von Friedhold Ludwig die Restaurierung durchgeführt und abgeschlossen. Wir nutzen unseren Wasserturm für kleine Kunstausstellungen oder Ausstellungen zur Hasberger Geschichte, insbesondere am Tag des offenen Gartentores (Pfingsten) oder am Tag des offenen Denkmals  am zweiten Sonntag im September. Die zum Wasserturm gehörige Grünfläche wird  nach und nach insektenfreundlich weiter entwickelt. Ein Imker aus Hasbergen hat seine Bienenstöcke am Ende des ehemaligen Bahnsteiges aufgebaut."
+      },
+      {
+        "language": "EN",
+        "title": "From a crumbling water tower to a small exhibition tower.",
+        "description": "Built around 1885, the water tower supplied water for the steam locomotives of the Georgsmarienhütten Railway. Constructed from local stone and sandstone, with a capacity of 10 cubic meters, it was one of the smallest in Germany. In 2014, it was designated an industrial monument due to its solid structure. Under the leadership of Friedhold Ludwig, it was restored and is now used for small art or history exhibitions. The surrounding area is being developed as an insect-friendly space, and a local beekeeper has set up beehives nearby."
+      }
+    ],
+    "image": "src/assets/img/Turm.png"
+  },
+  {
+    "stationId": 3,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.8647194725559!2d7.9574029627064435!3d52.23504829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e8ee3088422b%3A0xb2e384b86f0450b9!2sDie%20Frische-Fleischerei!5e0!3m2!1sde!2ses!4v1733297145387!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Weg zum nächsten Punkt",
+        "description": "Lasst uns auf den Weg zur nächsten spannenden Station machen. Dort erwartet euch ein weiterer interessanter Fakt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "On the way to the next point.",
+        "description": "Let's head to the next exciting stop, where another fascinating part of Hasbergen's history awaits."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+
+    "GPS": [52.235194296200795, 7.957957017715534]
+  },
+  {
+    "stationId": 4,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Die Anfänge der Wurst in Hasbergen",
+        "description": "In den 1960er Jahren nahm die Erfolgsgeschichte von HEIN eine entscheidende Wendung. Nach den bescheidenen Anfängen in Görlitz führte Dieter Hein die Familientradition fort und eröffnete 1961 das erste Ladengeschäft an diesem Eckgebäude an der Berliner Straße. Dieser Ort markierte nicht nur einen geografischen, sondern auch einen historischen Meilenstein: Hier begann die Entwicklung, die HEIN zu einem international erfolgreichen Unternehmen machte. Das kleine Geschäft in Hasbergen wurde schnell zu einem Anlaufpunkt für Genießer und Liebhaber hochwertiger Fleischwaren. Es war der erste Schritt in einer Expansionsstrategie, die über Jahrzehnte hinweg das Unternehmen wachsen ließ. Von hier aus wurden die Weichen gestellt für den Aufbau einer modernen Fleischwarenfabrik in Hasbergen-Gaste, die 1975 in Betrieb genommen wurde. Dieser Ort erzählt die Geschichte von Unternehmergeist, Tradition und dem Mut, in einer kleinen Gemeinde Großes zu erreichen. Was einst in Hasbergen begann, trug später dazu bei, den Namen HEIN weit über die Grenzen Deutschlands hinaus bekannt zu machen."
+      },
+      {
+        "language": "EN",
+        "title": "The beginnings of sausage making in Hasbergen.",
+        "description": "In the 1960s, HEIN’s success story took a decisive turn. Following humble beginnings in Görlitz, Dieter Hein continued the family tradition and opened the first store in 1961 at this corner building on Berliner Straße. This location marked not only a geographical but also a historical milestone: it was here that HEIN’s journey to becoming an internationally successful company began. The small shop in Hasbergen quickly became a destination for connoisseurs and lovers of high-quality meat products. It was the first step in an expansion strategy that enabled the company to grow over decades. From this point, the foundation was laid for the construction of a modern meat processing plant in Hasbergen-Gaste, which was inaugurated in 1975. This place tells a story of entrepreneurial spirit, tradition, and the courage to achieve great things in a small community. What began in Hasbergen later helped make the name HEIN renowned far beyond Germany’s borders."
+      }
+    ],
+    "image": "src/assets/img/Fleischer.png"
+  },
+  {
+    "stationId": 5,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "LINK zur Aussicht"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Weg zum nächsten Punkt",
+        "description": "Lasst uns auf den Weg zur nächsten spannenden Station machen. Dort erwartet euch ein weiterer interessanter Fakt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "On the way to the next point.",
+        "description": "Let's head to the next exciting stop, where another fascinating part of Hasbergen's history awaits."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.232285722583995, 7.959637211193343]
+  },
+  {
+    "stationId": 6,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vom Silber zum Zink: Wie der Hüggel Geschichte schürfte",
+        "description": "Die Geschichte des Hüggels ist tief in die Bergbau-Tradition verwurzelt, die bis ins Jahr 1180 zurückreicht, als hier erstmals Silber abgebaut wurde. Fast ein halbes Jahrhundert später, im Jahr 1235, verlieh Bischof Konrad von Osnabrück das Bergrecht auf die Silbervorkommen im Hüggel und Stertenbrink – ein bedeutender Moment, der die Region weiter prägte. Nach einer langen Pause wurde die Suche nach Silber im Jahr 1722 wieder aufgenommen. Das gewonnene „Hüggelsilber“ hatte eine besondere Bestimmung: Es wurde zu prächtigen Osnabrücker Münzen verarbeitet. Doch der Hüggel war nicht nur für Silber bekannt. 1852 begann die Beckeroder Eisenhütte mit dem Abbau von Eisenerz im Grubenfeld Hüggel I, das nur wenige Jahre später, 1856, in den Besitz des Georgs-Marien-Bergwerks- und Hüttenvereins überging. Im Jahr 1860 erreichte der Bergbau in der Region einen weiteren Meilenstein: Die Felder Aaron und Kronprinz wurden zusammengelegt und der neu gegründeten „Osnabrücker Zinkgesellschaft“ übertragen. So erzählt der Hüggel eine faszinierende Geschichte von Reichtum, Macht und industriellem Wandel."
+      },
+      {
+        "language": "EN",
+        "title": "From Silver to Zinc: The Hüggel’s Mining Tale",
+        "description": "The history of the Hüggel is deeply rooted in mining traditions, stretching back to 1180, when silver was first extracted from the area. Nearly half a century later, in 1235, Bishop Conrad of Osnabrück granted mining rights for the silver deposits at Hüggel and Stertenbrink – a pivotal moment that shaped the region’s future. After a long hiatus, silver mining resumed in 1722, with the coveted 'Hüggel silver' being crafted into exquisite Osnabrück coins. However, the Hüggel wasn’t just known for silver. In 1852, the Beckeroder Ironworks began extracting iron ore from the Hüggel I mine, which, by 1856, came under the ownership of the Georgs-Marien Mining and Ironworks Association. The year 1860 marked yet another milestone in the region’s mining legacy: the Aaron and Kronprinz fields were consolidated and transferred to the newly founded 'Osnabrück Zinc Company'. The Hüggel thus tells a fascinating story of wealth, power, and industrial transformation."
+      }
+    ],
+    "image": "src/assets/img/Mine.png"
+  },
+  {
+    "stationId": 7,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "LINK WEG ALTE OHRBECKER SCHULE"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Weg zum nächsten Punkt",
+        "description": "Lasst uns auf den Weg zur nächsten spannenden Station machen. Dort erwartet euch ein weiterer interessanter Fakt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "On the way to the next point.",
+        "description": "Let's head to the next exciting stop, where another fascinating part of Hasbergen's history awaits."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.233003231152026, 7.978046049206367]
+  },
+  {
+    "stationId": 8,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Wo alles seinen Lauf nahm",
+        "description": "Im Jahre 1974 wurde unter Anleitung der Vereinsmitglieder Jürgen Frieler und Georg Schirmbeck eine Volkslauf- und Wandergruppe ins Leben gerufen. Und schon im darauf folgenden Jahr (1975) wurde gleich der 1. internationale Volkslauf gestartet. Start und Ziel war an der ehemaligen Ohrbecker Schule. An diesem ersten Lauf nahmen 800 Aktive teil. Die Veranstaltung hatte echten Volksfestcharakter. Die Lauf-Veranstaltung und Teilnehmerzahlen entwickelten sich prima. Für die ständig zunehmenden Anmeldungen sorgten nicht zuletzt die attraktiven, wenn auch etwas schwierig zu laufenden Strecken; denn diese führten durch den Hüggel bergauf und bergab. So ist es überhaupt nicht verwunderlich, dass dieser Volkslauf den schönen Namen „Rund um den Hüggel“erhielt. Ein Höhepunkt des Volkslaufes war zweifellos die große Beteiligung im Jahre 1978. Hier waren 1600 Wandererund Läufer am Start. Unvergessen bleiben zum Beispiel die harten Auseinandersetzungen im Mannschaftsgehen der Militär-Mannschaften zwischen britischen und deutschen Soldaten und den Reservisten-Verbänden. Unvergessen ist auch die Ehrung von Norman Fox, der einen Weltrekord im „Dauerlaufen“ aufgestellt hatte. Begehrte Sammelobjekte waren die Auszeichnungen, die nach jedem Hüggel-Lauf verteilt wurden: Hochwertige Medaillen, auf denen eine der zahlreichen Hüggel-Sagen dargestellt war. Die grafischen Entwürfe und die Geschichte dazu lieferte Heinrich Meyer – langjähriges Mitglied im SV Ohrbeck. Im Jahr 1984wurde die Veranstaltung „Rund um den Hüggel“ auf das Gelände der Haupt- und Realschule nach Hasbergen verlegt. Im Jahre 1992ging es mit der Laufsport-Veranstaltung dann wieder Zurück nach Ohrbeck – auf das Gelände der ehemaligen Ohrbecker Schule. Nicht zuletzt auch wegen der dort inzwischen neu erbauten Dusch- und Umkleideräume. Wegen rückläufiger Teilnehmer war 1999mit dem 25. Lauf das Ende dieser Veranstaltung gekommen. Aber bereits 1980wartete der SV Ohrbeck mit einer neuen Laufveranstaltung auf. Diese Veranstaltung wurde ein Abendlauf durch den Ortskern von Hasbergen! Er ist mittlerweile unter dem Namen „NACHT VON HASBERGEN“ weit über die Grenzen von Niedersachsen bekannt."
+      },
+      {
+        "language": "EN",
+        "title": "Where the run began.",
+        "description": "In 1974, under the guidance of club members Jürgen Frieler and Georg Schirmbeck, a popular running and hiking group was established. The following year (1975), the first international popular run took place. The start and finish were at the former Ohrbeck school. A total of 800 participants took part in this first race. The event had a true folk festival character. The running event and participant numbers developed excellently. The steadily increasing registrations were due in no small part to the attractive, though somewhat challenging, routes; they took runners up and down the Hüggel mountain. It’s no surprise that this event was named “Rund um den Hüggel” (Around the Hüggel). A highlight of the event was undoubtedly the large participation in 1978, with 1,600 walkers and runners at the start. One unforgettable moment was the intense competition in the military team walking events between British and German soldiers and reservist groups. Another memorable moment was the recognition of Norman Fox, who had set a world record in “endurance running.” The awards handed out after each Hüggel run were highly sought-after collector's items: high-quality medals depicting one of the many Hüggel legends. The graphic designs and accompanying stories were provided by Heinrich Meyer, a long-time member of SV Ohrbeck. In 1984, the “Rund um den Hüggel” event was moved to the grounds of the main and secondary school in Hasbergen. In 1992, the event returned to Ohrbeck, to the grounds of the former Ohrbeck school, mainly due to the newly built shower and changing rooms. However, due to declining participation, the 25th run in 1999 marked the end of this event. But already in 1980, SV Ohrbeck introduced a new running event: an evening run through the center of Hasbergen! Today, it is known far beyond Lower Saxony under the name 'NACHT VON HASBERGEN' (Night of Hasbergen)."
+      }
+    ],
+    "image": "src/assets/img/Haus.png"
+  },
+  {
+    "stationId": 9,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d152.70575371587876!2d7.9668342186206464!3d52.238078605565384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2ses!4v1733303730836!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Weg zum nächsten Punkt",
+        "description": "Lasst uns auf den Weg zur nächsten spannenden Station machen. Dort erwartet euch ein weiterer interessanter Fakt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "On the way to the next point.",
+        "description": "Let's head to the next exciting stop, where another fascinating part of Hasbergen's history awaits."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.23814634601123, 7.966822950868004]
+  },
+  {
+    "stationId": 10,
+    "stationTypeIndex": 0,
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Der Bahnhof Wulffskotten: Geschichte zwischen Schienen und Stacheldraht",
+        "description": "Der Bahnhof Wulffskotten in Hasbergen hat eine bewegte Geschichte, die stark durch die Eisenbahnentwicklung und den Zweiten Weltkrieg geprägt wurde. Ursprünglich wurde der Bahnhof Anfang des 20. Jahrhunderts als kleiner Zwischenstopp auf der Strecke zwischen Osnabrück und Rheine eingerichtet. Während des Zweiten Weltkriegs spielte er eine strategische Rolle, unter anderem mit einer nahegelegenen schweren Flakstellung, die zum Schutz der Bahnanlagen diente. An dem Gebäude selbst gab es Schutzvorrichtungen, wie z. B. Splitterschutzfenster und einen Einmannbunker​"
+      },
+      {
+        "language": "EN",
+        "title": "The Wulffskotten Station: A Story Between Rails and Barbed Wire",
+        "description": "The Wulffskotten train station in Hasbergen has a fascinating history, heavily influenced by the development of railways and World War II. Originally built in the early 20th century as a small stop along the route between Osnabrück and Rheine, the station played a strategic role during the war. It was equipped with a nearby heavy anti-aircraft gun station to protect the railway facilities. The station building itself had protective features, such as blast-resistant windows and a single-person bunker."
+      }
+    ],
+    "image": "src/assets/img/TrainStation.png"
+  },
+  {
+    "stationId": 11,
+    "stationTypeIndex": 1,
+    "mapLinks": {
+      "google": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d717.1428547531173!2d7.958189572851827!3d52.2430179562514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e9001ff47547%3A0x4cdff757b60596fd!2sB%C3%BCrgersaal!5e0!3m2!1sde!2ses!4v1733303865306!5m2!1sde!2ses"
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Weg zum nächsten Punkt",
+        "description": "Lasst uns auf den Weg zur nächsten spannenden Station machen. Dort erwartet euch ein weiterer interessanter Fakt der Geschichte von Hasbergen."
+      },
+      {
+        "language": "EN",
+        "title": "On the way to the next point.",
+        "description": "Let's head to the next exciting stop, where another fascinating part of Hasbergen's history awaits."
+      }
+    ],
+    "image": "src/assets/img/st-welcome.png",
+    "GPS": [52.24308006002681, 7.958490107054966]
+  },
+  {
+    "stationId": 12,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vom Hers zum Has",
+        "description": "Urkundlich erwähnt wurde Hasbergen zum ersten Mal in einer Urkunde des Klosters Corvey im Jahre 836. Der Name Hasbergen ist auf das altniederdeutsche Wort Hers oder Hors (für Ross) zurückzuführen. Herslage war der ursprüngliche Name von Gut und Burg Haslage im Südwesten des Ortes. Eine weitere Urkunde stammt aus dem Jahre 1150. Dort bekundete Bischof Philipp von Osnabrück, dass ihm Heinrich von Tecklenburg den Hof und die Kapelle Wersen und eine Zahl von Lehnsleuten mit ihrem Besitz und den darauf wohnenden Angehörigen gegen eine bestimmte Zahlung übertragen habe. Die Lage des Ortes Hasbergen im Spannungsfeld zwischen der Grafschaft Tecklenburg und des Hochstifts Osnabrück bedeutete für die Besitzer des Gutes und der Burg Haslage in diesen Zeiten viel Unsicherheit und Unruhe. Man kann davon ausgehen, dass bis zum 15. Jahrhundert außer der Burg und dem Gut Haslage in dem jetzigen Hasbergen, wobei man die früher selbständigen Gemeinden, jetzt Ortsteile, Gaste und Ohrbeck zurechnen muss, nur einzelne selbständige Bauern und abhängige Landleute lebten."
+      },
+      {
+        "language": "EN",
+        "title": "From 'Hors' to 'Has'",
+        "description": "Hasbergen was first mentioned in a document from the Corvey Monastery in 836. The name Hasbergen derives from the Old Low German word Hers or Hors (meaning horse). Herslage was the original name of the estate and castle Haslage, located in the southwest of the town. Another document dates back to 1150, where Bishop Philipp of Osnabrück confirmed that Heinrich von Tecklenburg had transferred to him the manor and chapel of Wersen, along with a number of vassals, their properties, and the people living there, in exchange for a specific payment. The location of Hasbergen, situated between the County of Tecklenburg and the Prince-Bishopric of Osnabrück, meant that the owners of the Haslage estate and castle faced much uncertainty and unrest during these times. It is likely that until the 15th century, apart from the castle and estate of Haslage, only a few independent farmers and dependent peasants lived in what is now Hasbergen, which, if we include the former independent villages, now districts of Gaste and Ohrbeck, consisted mostly of scattered inhabitants."
+      }
+    ],
+    "image": "src/assets/img/st-hasbergen.png"
+  },
+  {
+    "stationId": 13,
+    "stationTypeIndex": 0,
+
+    "mapLinks": {
+      "google": ""
+    },
+    "languages": [
+      {
+        "language": "DE",
+        "title": "Vielen Dank.",
+        "description": "Wir freuen uns, dass Sie an unseren Tour teilgenommen haben. Wir hoffen Sie konnten etwas lernen und hatten eine schöne Zeit und haben vielleicht sogar etwas neuses über ihre Umgebung lernen können."
+      },
+      {
+        "language": "EN",
+        "title": "Thank you.",
+        "description": "We are delighted that you took part in our tour. We hope you learned something and had a great time and maybe even learned something new about your surroundings."
+      }
+    ],
+    "image": "src/assets/img/st-hasbergen.png"
+  }
+]
