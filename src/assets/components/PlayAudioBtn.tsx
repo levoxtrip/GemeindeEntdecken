@@ -17,40 +17,61 @@ type VoiceMap = Record<number, VoiceSettings>;
 const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
   const [audioPlaying, setAudioPlaying] = useState<boolean>(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
-  const currentLangRef = useRef<number>(currLangIndex);
+  const speakingRef = useRef<boolean>(false);
+
+  // Debug logging for props
+  useEffect(() => {
+    console.log("PlayAudioBtn Props:", { currLangIndex, text: currentDescription });
+  }, [currLangIndex, currentDescription]);
 
   useEffect(() => {
+    // Check if speech synthesis is supported
+    if (!window.speechSynthesis) {
+      setErrorMessage("Speech synthesis not supported in this browser");
+      return;
+    }
+
     const loadVoices = () => {
       const availableVoices = window.speechSynthesis.getVoices();
       console.log(
         "Loaded voices:",
-        availableVoices.map((v) => v.name + " (" + v.lang + ")")
+        availableVoices.map((v) => `${v.name} (${v.lang})`)
       );
       setVoices(availableVoices);
     };
 
-    if (window.speechSynthesis.getVoices().length === 0) {
-      window.speechSynthesis.onvoiceschanged = loadVoices;
-    } else {
-      loadVoices();
-    }
+    loadVoices();
 
+    // Chrome loads voices asynchronously
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    // Cleanup function
     return () => {
-      window.speechSynthesis.cancel();
+      if (speakingRef.current) {
+        window.speechSynthesis.cancel();
+      }
     };
   }, []);
 
+  // Handle language changes
   useEffect(() => {
-    currentLangRef.current = currLangIndex;
     console.log("Language changed to:", currLangIndex);
-    if (audioPlaying) {
+    if (speakingRef.current) {
+      console.log("Cancelling speech due to language change");
       window.speechSynthesis.cancel();
+      speakingRef.current = false;
       setAudioPlaying(false);
     }
-  }, [currLangIndex, audioPlaying]);
+  }, [currLangIndex]);
 
   const getVoice = () => {
+    if (voices.length === 0) {
+      console.warn("No voices available");
+      return null;
+    }
+
     // Properly typed voice map with a Record type
     const voiceMap: VoiceMap = {
       0: {
@@ -74,10 +95,13 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
       },
     };
     
-    // Now TypeScript knows this is a valid access
-    const settings = voiceMap[currLangIndex] || voiceMap[0];
+    // Make sure we have a valid index
+    const validIndex = (currLangIndex in voiceMap) ? currLangIndex : 0;
+    const settings = voiceMap[validIndex];
+    
     console.log("Looking for voice for language:", settings.lang);
 
+    // First try: exact matches of preferred voices
     for (const preferred of settings.preferredVoice) {
       const matchingVoice = voices.find(
         (v) => v.name.includes(preferred) || v.lang === preferred
@@ -88,55 +112,114 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
       }
     }
 
-    console.warn(
-      "No preferred voice found. Falling back to the first available voice for language:",
-      settings.lang
-    );
-    const fallbackVoice = voices.find((v) => v.lang === settings.lang);
+    // Second try: any voice for this language
+    const fallbackVoice = voices.find((v) => v.lang.startsWith(settings.lang.split("-")[0]));
     if (fallbackVoice) {
       console.log("Fallback voice selected:", fallbackVoice.name);
       return fallbackVoice;
     }
 
-    console.error("No voice found for language:", settings.lang);
-    return null;
+    // Last resort: first available voice
+    console.warn(
+      "No voice found for language. Using default voice."
+    );
+    return voices[0];
   };
 
   const handleSpeakClick = () => {
-    if (window.speechSynthesis.speaking) {
-      window.speechSynthesis.cancel();
+    setErrorMessage(null);
+    
+    // Validate text to speak
+    if (!currentDescription || currentDescription.trim() === "") {
+      console.error("No text to speak");
+      setErrorMessage("No text to speak");
+      return;
     }
 
-    const utterance = new SpeechSynthesisUtterance(currentDescription);
-    const selectedVoice = getVoice();
-    console.log("Using voice for speech:", selectedVoice?.name);
-    if (selectedVoice) utterance.voice = selectedVoice;
-    utterance.pitch = 1;
-    utterance.rate = 1;
+    // Always cancel any ongoing speech first
+    if (window.speechSynthesis.speaking || speakingRef.current) {
+      console.log("Cancelling previous speech");
+      window.speechSynthesis.cancel();
+      speakingRef.current = false;
+      // Give a small delay before starting new speech
+      setTimeout(() => startSpeaking(), 100);
+    } else {
+      startSpeaking();
+    }
+  };
 
-    utterance.onend = () => {
-      setAudioPlaying(false);
-    };
-
-    utterance.onerror = (event) => {
-      if (event.error === "interrupted") {
-        console.log("Speech interrupted, expected when manually stopping.");
-        return;
+  const startSpeaking = () => {
+    try {
+      console.log("Creating utterance with text:", currentDescription.substring(0, 50) + "...");
+      const utterance = new SpeechSynthesisUtterance(currentDescription);
+      
+      const selectedVoice = getVoice();
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        console.log("Using voice for speech:", selectedVoice.name);
+      } else {
+        console.warn("No voice selected, using default browser voice");
       }
-      console.error("Speech synthesis error:", event);
-      setAudioPlaying(false);
-    };
+      
+      utterance.pitch = 1;
+      utterance.rate = 1;
+      utterance.volume = 1;
 
-    utteranceRef.current = utterance;
-    setAudioPlaying(true);
-    window.speechSynthesis.speak(utterance);
+      // Handle speech events
+      utterance.onstart = () => {
+        console.log("Speech started");
+        speakingRef.current = true;
+        setAudioPlaying(true);
+      };
+
+      utterance.onend = () => {
+        console.log("Speech completed");
+        speakingRef.current = false;
+        setAudioPlaying(false);
+      };
+
+      utterance.onerror = (event) => {
+        if (event.error === "interrupted") {
+          console.log("Speech interrupted, likely manual stop");
+        } else {
+          console.error("Speech synthesis error:", event.error);
+          setErrorMessage(`Speech error: ${event.error}`);
+        }
+        speakingRef.current = false;
+        setAudioPlaying(false);
+      };
+
+      // Store reference to current utterance
+      utteranceRef.current = utterance;
+      
+      // Begin speaking
+      console.log("Starting speech synthesis...");
+      window.speechSynthesis.speak(utterance);
+      
+      // Chrome/Safari bug workaround - sometimes speech doesn't start properly
+      if (!window.speechSynthesis.speaking) {
+        console.log("Speech didn't start, trying again...");
+        window.speechSynthesis.cancel(); // Make sure it's cleared
+        setTimeout(() => {
+          window.speechSynthesis.speak(utterance);
+        }, 250);
+      }
+    } catch (error) {
+      console.error("Exception in speech synthesis:", error);
+      setErrorMessage(`Error: ${error}`);
+      speakingRef.current = false;
+      setAudioPlaying(false);
+    }
   };
 
   const handleAudioBtnClicked = () => {
     if (audioPlaying) {
+      console.log("Stopping speech");
       window.speechSynthesis.cancel();
+      speakingRef.current = false;
       setAudioPlaying(false);
     } else {
+      console.log("Starting speech");
       handleSpeakClick();
     }
   };
@@ -152,7 +235,18 @@ const PlayAudioBtn = ({ currLangIndex, currentDescription }: Props) => {
         }
         onClick={handleAudioBtnClicked}
         alt={audioPlaying ? "Pause" : "Play"}
+        style={{ cursor: 'pointer' }}
       />
+      {errorMessage && (
+        <div style={{ color: 'red', fontSize: '12px', marginTop: '5px' }}>
+          {errorMessage}
+        </div>
+      )}
+      {voices.length === 0 && (
+        <div style={{ color: 'orange', fontSize: '12px', marginTop: '5px' }}>
+          Loading voices...
+        </div>
+      )}
     </div>
   );
 };
